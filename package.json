@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src"
+    "scripts": {
+      "start": "node src",
+      "dev": "nodemon src"
+   }
   },
   "repository": {
     "type": "git",
