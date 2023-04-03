@@ -3,17 +3,17 @@
 
 ### Routes
 #### user:
-/user => get, post, patch, delete
-/user/signup  => get
-/user/login  => get
+"/user" => get, post, patch, delete
+"/user/signup"  => get
+"/user/login"  => get
 
 #### blogs:
-/blogs => get, post, patch, delete
-/blogs/title/${title}  => get
-/blogs/user/${id}  => get
+"/blogs" => get, post, patch, delete
+"/blogs/title/${title}"  => get
+"/blogs/user/${id}"  => get
 
 #### comments:
-/comments => get, post, patch, delete
-/comments/blog/${id}  => get
-/comments/user/${id}  => get
-/comments/${id}  => get
+"/comments" => get, post, patch, delete
+"/comments/blog/${id}"  => get
+"/comments/user/${id}"  => get
+"/comments/${id}"  => get
