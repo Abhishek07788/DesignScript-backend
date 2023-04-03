@@ -3,12 +3,12 @@
 
 ### Routes
 /user - get, post, patch, delete
-/user/signup  - get
-/user/login  - get
+/user/signup - get
+/user/login - get
 
 /blogs => get, post, patch, delete
-/blogs/title/${title}  - get
-/blogs/user/${id}  - get
+/blogs/title/${title} (get)
+/blogs/user/${id} (get)
 
 /comments - get, post, patch, delete
 /comments/blog/${id}  - get
